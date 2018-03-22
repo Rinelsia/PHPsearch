@@ -28,7 +28,7 @@ function searchKeyVal($filename, $val_key){
 	// var_dump($file_parse);
 	echo "$str";
 }
-// searchKeyVal($filename, $val_key);
+searchKeyVal($filename, $val_key);
 include "index1.php";
-createTxt($filename);
+// createTxt($filename);
 ?>
