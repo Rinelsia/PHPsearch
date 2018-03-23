@@ -1,7 +1,7 @@
 <?php
 // Исходные данные путь текстого документа с нужным форматом, и значение ключа
 $filename = "doc/text2.txt";// путь к файлу для чтения
-$val_key = 'fdf93d3d8afa1a17d9bb6f6a0cefd607ba9444a4342a9d4905f795b1d9238c9cc9762a727f80af39';//значение ключа дщля поиска
+$val_key = '';//значение ключа дщля поиска
 // функция поиска значения по ключу
 function searchKeyVal($filename, $val_key){
 	$file = file_get_contents($filename);
